@@ -8,8 +8,8 @@ class Main extends React.Component {
     return (
       <>
         <main>
-          {Data.map((hornedbeast) => { 
-            return <HornedBeast title={hornedbeast.title} imageURL={hornedbeast.image_url} />
+          {Data.map((hornedbeast, index) => { 
+            return <HornedBeast title={hornedbeast.title} imageURL={hornedbeast.image_url} key={index} description={hornedbeast.description} />
           })}
         </main>
       </>
