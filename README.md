@@ -110,3 +110,15 @@ Start time: 11:00pm
 Finish time: 11:50pm
 
 Actual time needed to complete: 50min
+
+----------------------------------------------------------------------
+
+Number and name of feature: Dsiplay a Modal
+
+Estimate of time needed to complete: 60 mins
+
+Start time: 12:30am
+
+Finish time: 1:15am
+
+Actual time needed to complete: 45 mins
