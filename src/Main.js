@@ -1,6 +1,6 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
-import Data from './data/data.json';
+// import Data from './data/data.json';
 import './Main.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -12,7 +12,7 @@ class Main extends React.Component {
         <main>
           <Container>
             <Row xs={1} sm={2} md={3} lg={4}>
-              {Data.map((hornedbeast, index) => {
+              {this.props.Data.map((hornedbeast, index) => {
                 return (
                   <HornedBeast
                     title={hornedbeast.title}
@@ -21,6 +21,7 @@ class Main extends React.Component {
                     description={hornedbeast.description}
                     addHearts={this.props.addHearts}
                     handleOpenModal={this.props.handleOpenModal}
+                    horns={hornedbeast.horns}
                   />
                 )
               })}

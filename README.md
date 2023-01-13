@@ -122,3 +122,15 @@ Start time: 12:30am
 Finish time: 1:15am
 
 Actual time needed to complete: 45 mins
+
+----------------------------------------------------------------------
+
+Number and name of feature: Filter by Number of Horns
+
+Estimate of time needed to complete: 60 mins
+
+Start time: 12:30am
+
+Finish time: 1:15am
+
+Actual time needed to complete: 45 mins
